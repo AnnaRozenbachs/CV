@@ -1,0 +1,94 @@
+body
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-container
+{
+    display: flex;
+    height: 350px;
+
+}
+.title-container
+{
+    width: 80%;
+    background-color: #1a232e;
+    color: white;
+    text-align: left;
+    height: 350px;
+    border-radius: 0 20px 0 0; 
+
+}
+.title-texts
+{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 150px;
+    padding-left: 20px;
+}
+.title-texts h2
+{
+    margin: 0px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.title-texts p
+{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+.personal-info
+{
+    background-color: #c3cbc4;
+    height: 850px;
+    width: 434px;
+}
+.personal-info p
+{
+    padding: 0px 25px 0 25px;
+}
+.experience-conntainer p{
+    padding: 0px 20px 0px 24px;
+    margin-top: -8px;
+
+}
+.personal-info h3, .experience-conntainer h3{
+    font-family: "Archivo Narrow", sans-serif;;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 24px;
+}
+.experience-conntainer h4{
+    font-family: "Open Sans", sans-serif;
+    padding: 0px 0px 0px 24px;
+}
+img
+{
+    height: 350px;
+    border-radius: 20px 0 0 0;
+}
+.body-container
+{
+    display: flex;
+}
+.experience-conntainer
+{
+    width: 80%;
+    height: 850px;
+    border-right: 1px solid #1a232e;
+    border-width: thin;
+}
+footer
+{
+    height: 30px;
+    background-color: #1a232e;
+    border-radius: 0px 0 20px 20px;
+}
+.technical-descriptions{
+
+    font-size: 13px;
+    font-style: italic;
+}
+.experience-conntainer .educations
+{
+    margin-top: 50px;
+}
