@@ -3,62 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="site.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+    
 
 </head>
 <body>
-    <div class="cv-container">
-        <div class="header-container">
-            <div class="picture-container">
-                <img src="Images/1690063986012.jpeg">
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-3">
+                <img class="img-fluid" src="Images/1690063986012.jpeg">
             </div>
-            <div class="title-container">
-                <div class="title-texts">
+            <div class="col col-xs-3 title-container d-flex">
+                <div class="align-self-center title-texts">
                     <h2>Anna Rozenbachs</h2>
-                    <p>Systemutvecklare</p> 
+                    <p>Systemutvecklare</p>
                 </div>
-            </div> 
+            </div>
         </div>
-        <div class="body-container">
-            <div class="personal-info">
-                <h3>Om mig</h3>
-                <p>
-                    Jag heter Anna och är en tjej på 35 år som jobbar som systemutvecklare. Mitt fokusområde är back-end utveckling i .NET miljö. Jag har jobbat med både nyutveckling och förvaltning av olika sorters system som exempelvis e-handelssystem och e-learningssystem. Jag är van att jobba i team och att jobba agilt enligt scrum.
-                </p>
-                <p>
-                    Jag har tidigare erfarenhet av jobb inom serviceområdet då jag jobbade på McDonald's i ungefär fyra år. Mina arbetsuppgifter där var att antingen stå i kassan eller McDriven och ta emot kundbeställningar. Jag fick också utveckla min samarbetsförmåga, stresstålighet och kundförmåga.
-                </p>
-                <p>
-                    Just nu bor jag i Hässelby Villastad, men jag är uppvuxen i Akalla där jag har bott större delen av mitt liv. Som person är jag väldigt glad, postitiv och självständig. På fritiden gillar jag att umgås med vänner, lyssna på musik, träna, kolla film, serier m.m.
-                </p>
-            </div>
-            <div class="experience-conntainer">
-                <h3>Arbetslivserfarenhet</h3>
-                <h4>Backendutvecklare</h4>
-                <p>NoA Ignite, 2020-2023</p>
-                <p class="technical-descriptions">Tekniker: C#, .NET Framework, MVC, Git, Azure Devops, Optimizely, API-er, JavaScript, TypeScript, .NET Core</p>
-                <h4>Systemutvecklare</h3>
-                <p>Itancan Consulting AB, 2019-2020</p>
-                <p class="technical-descriptions">Tekniker: C#, .NET Core, Entity Framework, MVC, Azure Devops, Git, REST-apier, JavaScript, Bootstrap, SQL</p>
-                <h4>Systemutvecklare</h4>
-                <p>Fakta webbyrå, 2014-2019</p>
-                <p class="technical-descriptions">Tekniker: C#, .NET Framework 4, MVC, Webforms, SVN, SQL, JavaScript, Bootstrap, HTML, CSS, Egentillverkat CMS</p>
-                <h4>Servicebiträde</h4>
-                <p>McDonald's, 2008-2013</p>
-
-                <div class="educations">
-                    <h3>Utbildning</h3>
-                    <p>Programutveckling .NET på Nackademins Yrkeshögskola, 2012-2014</p>
-                    <p>Engelska B, Jensens vuxenutbildning, 2010</p>
-                    <p>Hotell och restaurang inriktning entertainment på S:t Görans gymnasium, 2005-2008</p>
+        <div class="row">
+            <div class="col col-md-3">
+                <div class="personal-info">
+                    <h3>Om mig</h3>
+                    <p>
+                        Jag heter Anna och är en tjej på 35 år som jobbar som systemutvecklare. Mitt fokusområde är back-end
+                        utveckling i .NET miljö. Jag har jobbat med både nyutveckling och förvaltning av olika sorters
+                        system
+                        som exempelvis e-handelssystem och e-learningssystem. Jag är van att jobba i team och att jobba
+                        agilt
+                        enligt scrum.
+                    </p>
+                    <p>
+                        Jag har tidigare erfarenhet av jobb inom serviceområdet då jag jobbade på McDonald's i ungefär fyra
+                        år.
+                        Mina arbetsuppgifter där var att antingen stå i kassan eller McDriven och ta emot kundbeställningar.
+                        Jag
+                        fick också utveckla min samarbetsförmåga, stresstålighet och kundförmåga.
+                    </p>
+                    <p>
+                        Just nu bor jag i Hässelby Villastad, men jag är uppvuxen i Akalla där jag har bott större delen av
+                        mitt
+                        liv. Som person är jag väldigt glad, postitiv och självständig. På fritiden gillar jag att umgås med
+                        vänner, lyssna på musik, träna, kolla film, serier m.m.
+                    </p>
                 </div>
             </div>
+            <div class="col col-xs-3">
+                <div class="experience-conntainer">
+                    <h3>Arbetslivserfarenhet</h3>
+                    <h4>Backendutvecklare</h4>
+                    <p>NoA Ignite, 2020-2023</p>
+                    <p class="technical-descriptions">Tekniker: C#, .NET Framework, MVC, Git, Azure Devops, Optimizely,
+                        API-er,
+                        JavaScript, TypeScript, .NET Core</p>
+                    <h4>Systemutvecklare</h3>
+                        <p>Itancan Consulting AB, 2019-2020</p>
+                        <p class="technical-descriptions">Tekniker: C#, .NET Core, Entity Framework, MVC, Azure Devops, Git,
+                            REST-apier, JavaScript, Bootstrap, SQL</p>
+                        <h4>Systemutvecklare</h4>
+                        <p>Fakta webbyrå, 2014-2019</p>
+                        <p class="technical-descriptions">Tekniker: C#, .NET Framework 4, MVC, Webforms, SVN, SQL,
+                            JavaScript,
+                            Bootstrap, HTML, CSS, Egentillverkat CMS</p>
+                        <h4>Servicebiträde</h4>
+                        <p>McDonald's, 2008-2013</p>
+    
+                        <div class="educations">
+                            <h3>Utbildning</h3>
+                            <p>Programutveckling .NET på Nackademins Yrkeshögskola, 2012-2014</p>
+                            <p>Engelska B, Jensens vuxenutbildning, 2010</p>
+                            <p>Hotell och restaurang inriktning entertainment på S:t Görans gymnasium, 2005-2008</p>
+                        </div>
+                </div>
+            </div>
+            <footer></footer>
+        </div>
     </div>
-       <footer></footer>
-    </div>
-
 </body>
 </html>
